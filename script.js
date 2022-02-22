@@ -36,10 +36,10 @@ const displayPokemon = (pokemon) => {
 
 fetchPokemon() ;
 
-//This search filter is not working
-
 const search_term = document.getElementById('search-input');
 const search_btn = document.getElementById('search-button');
-search_btn.addEventListener('click', () => getPokemonData(search_term.value));
-displayPokemonData(search_term.value);
+search_btn.addEventListener('click', (e) =>
+  getPokemonData(e, search_term.value)
+);
 
+fetchPokemon() ;
