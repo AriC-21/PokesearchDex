@@ -37,7 +37,7 @@ h1 {
 .card {
     list-style: none;
     padding: 40px;
-    background-color: white;
+    background-color: rgb(235, 210, 210);
     color: #222;
   text-align: center;
 }
